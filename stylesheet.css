@@ -1,0 +1,171 @@
+
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_header {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+
+}
+
+.header-logo img {
+    width: 75px;
+    height: 75px;
+    margin-right:auto;
+}
+
+.header-links {
+    display:flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+    justify-content: space-around;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color:#1F2937;
+    justify-content: center;
+    padding: 90px;
+    align-items: center;
+}
+
+.intro {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.intro p {
+    font-family: 'Roboto', arial;
+    opacity: .7;
+}
+
+h1 {
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+    color: #f9faf8;
+    margin:0;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro-image img {
+    width: 500px;
+    height: 350px;
+}
+
+.content_information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content_information img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px 20px 0px 20px;
+    border: 2px blue solid;
+}
+
+.quote {
+    background-color: #E5E7EB ;
+    display: flex;
+    flex-direction: column;
+}
+.by {
+    margin-left: auto;
+    font-family: 'Roboto', arial;
+    padding: 0px 600px 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quote_text {
+    font-size: 36px;
+    font-family: 'Roboto', arial;
+}
+
+.ending {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+    color:white;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.final_button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}        
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto', arial;
+}
